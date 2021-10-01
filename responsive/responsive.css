@@ -3,21 +3,21 @@
   height: 180px;
   background: url(https://imgs.xkcd.com/comics/self_description.png) 0 0;
 }
-@media only screen and (min-device-width: 1200px) and (max-device-width: 400000px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 400000px) {
   .comic {
     width: 740px;
     height: 180px;
     background: url(https://imgs.xkcd.com/comics/self_description.png) 0 0;
   }
 }
-@media only screen and (min-device-width: 601px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 601px) and (max-device-width: 1200px) {
   .comic {
     width: 740px;
     height: 180px;
     background: url(https://imgs.xkcd.com/comics/self_description.png) 0 0;
   }
 }
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media and (min-device-width: 1200px) and (max-device-width: 1600px) {
   .comic {
     width: 740px;
     height: 180px;
