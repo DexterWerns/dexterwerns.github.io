@@ -1,0 +1,126 @@
+#col1 {
+  color: white;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: heavy;
+
+  border: white;
+  text-align: center;
+  background-color: black;
+}
+#col2 {
+  color: rgb(47, 255, 245);
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  font-weight: heavy;
+  height: 74px;
+  border: 5px;
+  text-align: center;
+  max-width: 1000px;
+  background-color: black;
+}
+#sayles {
+  height: fit-content;
+  border: 1px black solid;
+}
+#col3 {
+  color: rgb(47, 255, 245);
+  max-width: 1000px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  font-weight: heavy;
+  height: 74px;
+  border: 5px;
+  text-align: center;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+#row2 {
+  color: rgb(47, 255, 245);
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: heavy;
+  height: 330px;
+  border: 4mm ridge rgba(170, 50, 220, 0.6);
+  width: 1200px;
+  background-color: darksalmon;
+}
+#colchicken {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: heavy;
+  height: 250px;
+  background-color: black;
+  word-wrap: break-word;
+  width: 1000px;
+}
+#headchicken {
+  color: black;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: heavy;
+  background-color: darksalmon;
+
+  width: 100%;
+  max-width: 1000px;
+  background-color: black;
+}
+
+#bordersushi {
+  margin: 10px;
+  max-width: 2000px;
+  height: fit-content;
+}
+#borderbeef {
+  margin: 10px;
+  max-width: 2000px;
+  height: fit-content;
+}
+#borderchicken {
+  margin: 10px;
+  max-width: 2000px;
+  height: fit-content;
+}
+#container {
+  max-width: 1050px;
+  max-height: 500px;
+}
+
+@media screen and (min-width: 1 px) and (max-width: 767px) {
+  .col-md-4 {
+    width: 66%;
+    background-color: black;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .col-md-4 {
+    width: 33%;
+    background-color: black;
+  }
+  #bordersushi {
+    width: 46.5%;
+  }
+  #borderbeef {
+    width: fit-content;
+    margin-left: 25px;
+  }
+  #borderchicken {
+    width: 46.5%;
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .col-md-4 {
+    width: 46.5%;
+    background-color: black;
+  }
+}

@@ -1,0 +1,21 @@
+#body {
+  background-image: url("https://wallpapercave.com/wp/jnETzbZ.jpg");
+  background-size: auto;
+}
+#heading {
+  color: black;
+  margin-left: 0px;
+}
+#box {
+  color: black;
+  border: solid 1mm black;
+  background-color: rgb(180, 180, 180);
+  word-wrap: normal;
+}
+.row {
+  margin: 0px;
+}
+#img {
+  width: 200px;
+  margin-top: 0px;
+}
